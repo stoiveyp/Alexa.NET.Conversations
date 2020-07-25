@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Steven Pears</Authors>
+    <Description>Extension for Alexa.NET that supports Alexa Conversation requests</Description>
+    <PackageProjectUrl>https://github.com/stoiveyp/Alexa.NET.Conversations</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/stoiveyp/Alexa.NET.Conversations</RepositoryUrl>
+    <PackageTags>alexa</PackageTags>
+    <PackageReleaseNotes>initial release</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>

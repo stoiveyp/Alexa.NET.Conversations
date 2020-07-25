@@ -1,0 +1,35 @@
+{
+  // Standard fields        
+  "type": "Dialog.API.Invoked",
+  // Alexa Conversations-specific
+  "apiRequest": {
+    "name": "BookMovieTicket", // API Name
+    "arguments": {
+      "movie": "Example movie name", // Custom slot type (Movie)
+      "partySize": 4, // AMAZON.NUMBER 
+      "preferredShowTimes": [// List<AMAZON.TIME>
+        "12:00",
+        "16:00",
+        "21:00"
+      ],
+      "preferredTheaters": [// List of custom slot type (Theater)
+        {
+          "name": "myValue",
+          "address": "myValue"
+        }
+      ]
+    },
+    // A slot has a value if it's a simple 
+    // slot type and the value is spoken. 
+    "slots": {
+      "movie": {
+        "type": "Simple",
+        "value": "Example movie name",
+      },
+      "partySize": {
+        "type": "Simple",
+        "value": "4"
+      }
+    }
+  }
+}

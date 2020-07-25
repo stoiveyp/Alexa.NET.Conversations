@@ -1,0 +1,12 @@
+{
+  "apiResponse": {
+    "orderStatus": "submitted",
+    "pickupOrDelivery": "pickup",
+    "toppings": [
+      "olives",
+      "green peppers",
+      "pineapple"
+    ],
+    "orderTime": "14:00"
+  }
+}

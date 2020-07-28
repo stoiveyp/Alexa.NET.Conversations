@@ -24,4 +24,16 @@ response.Response = new DialogConversationResponse{
 	}
 }
 ```
+### Hand off Conversation to Alexa Conversations
 
+```csharp
+skillResponse.Response.Directives.Add(DialogDelegateRequestDirective.ToConversations(DelegatePeriod.ExplicitReturn))
+})
+```
+
+### Hand off Conversation to Skill
+
+```csharp
+skillResponse.Response.Directives.Add(DialogDelegateRequestDirective.ToSkill(DelegatePeriod.NextTurn, updatedIntent))
+})
+```

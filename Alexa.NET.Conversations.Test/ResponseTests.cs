@@ -12,5 +12,12 @@ namespace Alexa.NET.Conversations.Test
         {
             Utility.AssertJson<DialogConversationResponse>("ApiResponse.json", "shouldEndSession");
         }
+
+        [Fact]
+        public void DialogDelegateRequestDirectiveSupported()
+        {
+            DialogDelegateRequestDirective.AddSupport();
+            Utility.AssertJson<DialogDelegateRequestDirective>("DialogDelegateRequest.json");
+        }
     }
 }

@@ -7,9 +7,10 @@
     <PackageProjectUrl>https://github.com/stoiveyp/Alexa.NET.Conversations</PackageProjectUrl>
     <RepositoryUrl>https://github.com/stoiveyp/Alexa.NET.Conversations</RepositoryUrl>
     <PackageTags>alexa</PackageTags>
-    <PackageReleaseNotes>initial release</PackageReleaseNotes>
+    <PackageReleaseNotes>Improve DialogDelegateRequest Directive support</PackageReleaseNotes>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,0 +1,23 @@
+{
+  "type": "Dialog.DelegateRequest",
+  "target": "skill",
+  "period": {
+    "until": "EXPLICIT_RETURN"
+  },
+  "updatedRequest": {
+    "type": "IntentRequest",
+    "intent": {
+      "name": "<intentName>",
+      "slots": {
+        "<slotName1>": {
+          "name": "<slotName1>",
+          "value": "<slotValue1>"
+        },
+        "<slotName2>": {
+          "name": "<slotName2>",
+          "value": "<slotValue2>"
+        }
+      }
+    }
+  }
+}
